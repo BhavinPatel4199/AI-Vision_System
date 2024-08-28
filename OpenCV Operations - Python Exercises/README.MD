@@ -5,6 +5,10 @@
 - This repository contains a series of exercises designed to help you get familiar with various OpenCV operations using Python.
 - The exercises are aimed at understanding image processing techniques such as image resizing, color space conversions, drawing shapes, applying filters, and performing edge detection.
 
+
+## Dataset : 
+- Images used for this exercise are uploaded in repository feel free to use you own images for further analysis. 
+
 ## Contents
 
 - **Question 1:** Reading and displaying the shape and size of an image.
