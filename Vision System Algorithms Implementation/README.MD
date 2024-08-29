@@ -28,28 +28,29 @@ This project showcases the implementation of fundamental computer vision algorit
 - YOLO (You Only Look Once) is a real-time object detection system that identifies objects in images by predicting bounding boxes and class probabilities. This state-of-the-art technique allows for accurate and fast object detection.
 
 
+## Required Files
+
+  For YOLO Object Detection to work, you need the following files:
+  1. coco.names: This file contains the names of the classes that YOLO can detect. It is used to label the detected objects.
+    - Location: Typically provided with YOLO weights or can be downloaded from the YOLO website. (https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names)
+    - Usage: Place it in the same directory as your YOLO scripts.
+
+  2. yolo3.cfg: This configuration file defines the YOLO model architecture and hyperparameters.
+    - Location: Usually obtained from the YOLO website or trained models. (https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg)
+    - Usage: Specify the path to this file when loading the YOLO model in your script.
+
+  3. yolo3.weights: This file contains the trained weights for the YOLO model. It is essential for the model to make predictions.
+    - Location: Downloadable from the YOLO website. (https://pjreddie.com/media/files/yolov3.weights)
+    - Usage: Ensure this file is accessible to your script and specify the correct path when loading the model.
+
+### **Download these files before running the file.**
+
+
 ## Dependencies
 To run the code in this repository, you will need the following Python libraries:
 OpenCV
 NumPy
 Matplotlib
-
-
-
-## Required Files
-
-  For YOLO Object Detection to work, you need the following files:
-  1. coco.names: This file contains the names of the classes that YOLO can detect. It is used to label the detected objects.
-  - Location: Typically provided with YOLO weights or can be downloaded from the YOLO website.
-  - Usage: Place it in the same directory as your YOLO scripts.
-  2. yolo3.cfg: This configuration file defines the YOLO model architecture and hyperparameters.
-  - Location: Usually obtained from the YOLO website or trained models.
-  - Usage: Specify the path to this file when loading the YOLO model in your script.
-  3. yolo3.weights: This file contains the trained weights for the YOLO model. It is essential for the model to make predictions.
-  - Location: Downloadable from the YOLO website.
-  - Usage: Ensure this file is accessible to your script and specify the correct path when loading the model.
-
-#### All this files are present in the repository.
 
 ## Results
 
