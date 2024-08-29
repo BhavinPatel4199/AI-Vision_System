@@ -32,13 +32,6 @@
 - Matplotlib
 - PIL (Python Imaging Library)
 
-### Installation
-
-To install the required packages, you can use pip:
-
-```bash
-pip install opencv-python-headless numpy matplotlib pillow
-
 ### Running the Code
 - Each exercise is provided in separate code blocks. You can run them in a Jupyter Notebook environment or as standalone Python scripts. The instructions for each exercise are included as comments in the code.
 
@@ -47,3 +40,12 @@ pip install opencv-python-headless numpy matplotlib pillow
 
 ### Contributing
 - Feel free to contribute to this repository by adding more exercises or improving existing ones. You can do so by submitting a pull request.
+
+
+### Installation
+
+To install the required packages, you can use pip:
+
+```bash
+pip install opencv-python-headless numpy matplotlib pillow
+
