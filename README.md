@@ -48,24 +48,13 @@ To run the projects in this repository, you will need the following Python libra
   ```bash
   pip install opencv-python-headless numpy matplotlib pillow
 
-
 ## How to Run
 
-1. **Clone the Repository:**
+-  **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/artificial-intelligence-vision-system.git
-    cd artificial-intelligence-vision-system
+    git clone https://github.com/krishnapatel1722/AI-Vision_System.git
+    cd AI-Vision_System
     ```
-
-2. **Navigate to the Project Directory:**
-    - For OpenCV Operations:
-      ```bash
-      cd opencv-operations-python-exercises
-      ```
-    - For Vision System Algorithms:
-      ```bash
-      cd vision-system-algorithms-implementation
-      ```
-
-3. **Run the Scripts:**
+    
+- **Run the Scripts:**
     - Follow the instructions in each project’s `README.md` file for running individual scripts.
