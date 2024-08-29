@@ -4,7 +4,7 @@ This repository contains the implementation of several computer vision algorithm
 
 ## Dataset : 
 1. Images used in this project are uplaoded in repository feel free to use your own images.
-2. For yolo object detection i have used the dataset named "val2017" : link to download the data set (http://images.cocodataset.org/zips/val2017.zip)
+2. For yolo object detection i have used the dataset named "val2017" : link to download the data set (http://images.cocodataset.org/zips/val2017.zip) if you encouter any issue with file atted in this repository.
 
 ## Overview
 
@@ -43,7 +43,7 @@ This project showcases the implementation of fundamental computer vision algorit
     - Location: Downloadable from the YOLO website. (https://pjreddie.com/media/files/yolov3.weights)
     - Usage: Ensure this file is accessible to your script and specify the correct path when loading the model.
 
-### **Download these files before running the file.**
+### all files are present in the repository if you face any difficulty you can visit the mention web sites individually and download each file.
 
 
 ## Dependencies
